@@ -1,0 +1,15 @@
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip3_425">
+			<rect id="icon" width="20.000000" height="20.000000" transform="translate(14.000000 14.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame 41" rx="24.000000" width="48.000000" height="48.000000" fill="#FFFFFF" fill-opacity="0.300000"/>
+	<rect id="icon" width="20.000000" height="20.000000" transform="translate(14.000000 14.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip3_425)">
+		<path id="Vector" d="M18 16C17.2043 16 16.4413 16.3162 15.8787 16.8787C15.316 17.4414 15 18.2043 15 19L15 19.3015L24 24.1479L33 19.303L33 19C33 18.2043 32.684 17.4414 32.1213 16.8787C31.5587 16.3162 30.7957 16 30 16L18 16ZM33 21.0056L24.3555 25.6599C24.2462 25.7188 24.1241 25.7495 24 25.7495C23.8759 25.7495 23.7538 25.7188 23.6445 25.6599L15 21.0056L15 28C15 28.7957 15.316 29.5586 15.8787 30.1213C16.4413 30.6838 17.2043 31 18 31L30 31C30.7957 31 31.5587 30.6838 32.1213 30.1213C32.684 29.5586 33 28.7957 33 28L33 21.0056Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
