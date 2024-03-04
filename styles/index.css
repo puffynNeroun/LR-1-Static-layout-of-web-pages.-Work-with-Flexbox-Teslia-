@@ -1,0 +1,530 @@
+@font-face {
+    font-family:Circe ;
+    src: url("../font/Circe/Circe-Bold.otf");
+}
+@font-face {
+    font-family:Circe ;
+    src: url("../font/Circe/Circe-ExtraBold.otf");
+}
+@font-face {
+    font-family:Circe ;
+    src: url("../font/Circe/CRC25.otf");
+}
+@font-face {
+    font-family:Circe ;
+    src: url("../font/Circe/CRC35.otf");
+}
+@font-face {
+    font-family:Circe ;
+    src: url("../font/Circe/CRC55.otf");
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    max-width: 1270px;
+    padding: 0 15px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.header {
+    /* shadow */
+    box-shadow: 0 4px 12px 0 rgba(51, 51, 51, 0.2);
+    /* accent */
+    background: rgb(31, 168, 173);
+    padding: 24px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+}
+
+.header__navbar {
+}
+
+.header__list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__item a{
+    /* p/18r */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__icon {
+}
+
+.header__btn {
+    /* shadow */
+    box-shadow: 0 4px 12px 0 rgba(51, 51, 51, 0.2);
+    /* white */
+    background: rgb(255, 255, 255);
+    /* other/13b--ttu */
+    color: rgb(31, 168, 173);
+    font-family: Circe;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+}
+
+.main{
+    background: #f9f9f9;
+}
+
+
+.first {
+    background: url("../img/first-screen__bgc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first__container {
+}
+
+
+.first__title {
+    /* h/56eb */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: left;
+    max-width: 636px;
+    padding-bottom: 266px;
+    padding-top: 124px;
+}
+
+.first__cards {
+    display: flex;
+    gap: 24px;
+    max-width: 1270px;
+    position: absolute;
+    top: 75%;
+
+}
+
+.first__card {
+    display: flex;
+    gap: 20px;
+    padding: 28px 32px;
+    /* shadow--light */
+    box-shadow: 0 4px 8px 0 rgba(51, 51, 51, 0.07);
+    /* accent */
+    background: rgb(31, 168, 173);
+}
+
+.first__icon {
+}
+
+.first__content {
+}
+
+.first__subtitle {
+    /* h/24b */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.first__text {
+    /* p/15r */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.about {
+    padding-top: 287px;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__title {
+    /* h/56eb */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.about__description {
+    /* p/18r */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 60px;
+    max-width: 856px;
+}
+
+.about__buttons {
+    padding-bottom: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+.about__button {
+    display: flex;
+    gap: 24px;
+    /* p/18r */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    /* shadow--light */
+    box-shadow: 0 4px 8px 0 rgba(51, 51, 51, 0.07);
+    /* white */
+    background: rgb(31, 168, 173);
+    padding: 12px 24px;
+    border: none;
+}
+
+.about__info {
+    background: white;
+    padding: 60px 80px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.about__text {
+    /* p/18r */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.about__image {
+}
+
+.why {
+    padding-top: 80px;
+}
+
+.why__container {
+}
+
+
+.why__title {
+    /* h/56eb */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.why__content {
+    display: flex;
+    align-items: center;
+    gap: 134px;
+}
+
+.why__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.why__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+    width: 306px;
+}
+
+.why__icon {
+}
+
+.why__text {
+    /* h/24b */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    max-width: 242px;
+}
+
+.why__graph {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.why__description {
+    /* p/18r */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.why__image {
+}
+
+.reviews {
+    padding-top: 130px;
+}
+
+.reviews__container {
+}
+
+
+.reviews__title {
+    /* h/56eb */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.reviews__cards {
+    display: flex;
+    gap: 24px;
+}
+
+.reviews__card {
+    padding: 40px;
+    background: white;
+}
+
+.reviews__icon {
+}
+
+.reviews__subtitle {
+    /* h/21b */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: left;
+}
+
+.reviews__text {
+    /* p/15r */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    padding-bottom: 28px;
+}
+
+.reviews__name {
+    /* other/13b--ttu */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.reviews__post {
+    /* p/15r */
+    color: rgb(26, 26, 26);
+    font-family: Circe;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.form {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.form__title {
+    /* h/56eb */
+    font-family: Circe;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 125%;
+    text-align: left;
+    max-width: 636px;
+}
+
+.form__content {
+    padding: 48px 60px;
+    background: white;
+}
+
+.form__subtitle {
+    /* h/32b */
+    font-family: Circe;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 28px;
+}
+
+.form__inp {
+    padding: 20px 24px;
+}
+
+.form__check {
+    padding-bottom: 36px;
+}
+
+.form__checkbox {
+    border: 1px solid rgb(31, 168, 173);
+}
+
+.form__checkText {
+    /* p/15r */
+    color: rgb(31, 168, 173);
+    font-family: Circe;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.form__button {
+}
+
+.form__btn {
+    /* other/16b--ttu */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    /* accent */
+    background: rgb(31, 168, 173);
+    padding: 20px 40px;
+    border: none;
+}
+
+.footer {
+    /* shadow */
+    box-shadow: 0 4px 12px 0 rgba(51, 51, 51, 0.2);
+    /* accent */
+    background: rgb(31, 168, 173);
+    padding: 24px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+}
+
+.footer__navbar {
+}
+
+.footer__list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.footer__item a{
+    /* p/18r */
+    color: rgb(255, 255, 255);
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__icon {
+}
+
+.footer__btn {
+    /* shadow */
+    box-shadow: 0 4px 12px 0 rgba(51, 51, 51, 0.2);
+    /* white */
+    background: rgb(255, 255, 255);
+    /* other/13b--ttu */
+    color: rgb(31, 168, 173);
+    font-family: Circe;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+}
