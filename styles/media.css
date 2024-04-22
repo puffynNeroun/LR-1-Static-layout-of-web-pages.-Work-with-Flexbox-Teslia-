@@ -183,6 +183,10 @@
         display: none;
     }
 
+    .swiper-pagination {
+        display: none;
+    }
+
     .reviews__title {
         font-size: 40px;
     }
