@@ -350,8 +350,12 @@ body {
 }
 
 .reviews__cards {
-    display: flex;
+    display: none;
     gap: 24px;
+}
+
+.reviews__cards_swiper {
+    display: flex;
 }
 
 .reviews__card {
