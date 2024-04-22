@@ -553,3 +553,16 @@ body {
 .displayNone {
     display: none !important;
 }
+
+.error {
+    color: red;
+}
+
+.swiper-pagination {
+    position: relative;
+    padding-top: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(31, 168, 173) !important;
+}
