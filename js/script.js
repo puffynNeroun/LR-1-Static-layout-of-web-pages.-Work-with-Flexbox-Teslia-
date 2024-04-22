@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", function() {
         return !isNaN(number);
     }
 
+    function saveFormData() {
+        localStorage.setItem('name', nameInput.value);
+        localStorage.setItem('email', emailInput.value);
+        localStorage.setItem('number', numberInput.value);
+        localStorage.setItem('consent', checkbox.checked);
+    }
 
     function validateForm() {
         let isValid = true;
@@ -75,18 +81,34 @@ document.addEventListener("DOMContentLoaded", function() {
             checkboxError.textContent = '';
         }
 
+        if (isValid) {
+            saveFormData();
+        }
+
         return isValid;
     }
 
     submitButton.addEventListener('click', function(event) {
         event.preventDefault();
         if (validateForm()) {
-
             alert('Form submitted successfully!');
-
         }
     });
+
+    if (localStorage.getItem('name')) {
+        nameInput.value = localStorage.getItem('name');
+    }
+    if (localStorage.getItem('email')) {
+        emailInput.value = localStorage.getItem('email');
+    }
+    if (localStorage.getItem('number')) {
+        numberInput.value = localStorage.getItem('number');
+    }
+    if (localStorage.getItem('consent')) {
+        checkbox.checked = localStorage.getItem('consent') === 'true';
+    }
 });
+
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
