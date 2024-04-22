@@ -88,6 +88,22 @@ body {
     padding: 10px 20px;
 }
 
+.burgerBtn {
+
+    background: transparent;
+    padding: 10px;
+    border: none;
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+}
+.burgerBtn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+}
+
 .main{
     background: #f9f9f9;
 }
@@ -528,4 +544,12 @@ body {
     text-transform: uppercase;
     border: none;
     padding: 10px 20px;
+}
+
+.activeBurger {
+    display: flex !important;
+}
+
+.displayNone {
+    display: none !important;
 }
